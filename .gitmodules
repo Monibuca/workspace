@@ -1,0 +1,30 @@
+[submodule "plugin-debug"]
+	path = plugin-debug
+	url = git@github.com:Monibuca/plugin-debug
+[submodule "plugin-hdl"]
+	path = plugin-hdl
+	url = git@github.com:Monibuca/plugin-hdl
+[submodule "plugin-hls"]
+	path = plugin-hls
+	url = git@github.com:Monibuca/plugin-hls
+[submodule "plugin-jessica"]
+	path = plugin-jessica
+	url = git@github.com:Monibuca/plugin-jessica
+[submodule "plugin-logrotate"]
+	path = plugin-logrotate
+	url = git@github.com:Monibuca/plugin-logrotate
+[submodule "plugin-rtmp"]
+	path = plugin-rtmp
+	url = git@github.com:Monibuca/plugin-rtmp
+[submodule "plugin-rtsp"]
+	path = plugin-rtsp
+	url = git@github.com:Monibuca/plugin-rtsp
+[submodule "plugin-ts"]
+	path = plugin-ts
+	url = git@github.com:Monibuca/plugin-ts
+[submodule "plugin-webrtc"]
+	path = plugin-webrtc
+	url = git@github.com:Monibuca/plugin-webrtc
+[submodule "monibuca"]
+	path = monibuca
+	url = git@github.com:langhuihui/monibuca

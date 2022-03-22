@@ -1,0 +1,15 @@
+go 1.18
+
+use (
+	./engine
+	./monibuca
+	./plugin-debug
+	./plugin-hdl
+	./plugin-hls
+	./plugin-jessica
+	./plugin-logrotate
+	./plugin-rtmp
+	./plugin-rtsp
+	./plugin-ts
+  ./plugin-webrtc
+)
