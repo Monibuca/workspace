@@ -8,9 +8,9 @@ use (
 	./plugin-hls
 	./plugin-jessica
 	./plugin-logrotate
+	./plugin-record
 	./plugin-rtmp
 	./plugin-rtsp
 	./plugin-ts
-  ./plugin-webrtc
-  ./plugin-record
+	./plugin-webrtc
 )
