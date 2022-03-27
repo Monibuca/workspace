@@ -1,3 +1,6 @@
+[submodule "engine"]
+	path = engine
+	url = git@github.com:Monibuca/engine
 [submodule "plugin-debug"]
 	path = plugin-debug
 	url = git@github.com:Monibuca/plugin-debug

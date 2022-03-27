@@ -12,4 +12,5 @@ use (
 	./plugin-rtsp
 	./plugin-ts
   ./plugin-webrtc
+  ./plugin-record
 )
