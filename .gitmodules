@@ -28,6 +28,9 @@
 [submodule "plugin-webrtc"]
 	path = plugin-webrtc
 	url = git@github.com:Monibuca/plugin-webrtc
+[submodule "plugin-record"]
+	path = plugin-record
+	url = git@github.com:Monibuca/plugin-record
 [submodule "monibuca"]
 	path = monibuca
 	url = git@github.com:langhuihui/monibuca
