@@ -14,4 +14,7 @@ use (
 	./plugin-ts
 	./plugin-webrtc
 	./plugin-webtransport
+  ./plugin-room
+  ./plugin-hook
+  ./plugin-gb28181
 )

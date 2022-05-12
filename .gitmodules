@@ -34,6 +34,12 @@
 [submodule "plugin-record"]
 	path = plugin-record
 	url = git@github.com:Monibuca/plugin-record
+[submodule "plugin-hook"]
+	path = plugin-hook
+	url = git@github.com:Monibuca/plugin-hook
+[submodule "plugin-room"]
+	path = plugin-room
+	url = git@github.com:Monibuca/plugin-room
 [submodule "monibuca"]
 	path = monibuca
 	url = git@github.com:langhuihui/monibuca
