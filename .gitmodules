@@ -43,3 +43,6 @@
 [submodule "monibuca"]
 	path = monibuca
 	url = git@github.com:langhuihui/monibuca
+[submodule "gb28181"]
+	path = gb28181
+	url = git@github.com:Monibuca/plugin-gb28181
