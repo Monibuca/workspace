@@ -22,9 +22,6 @@
 [submodule "plugin-rtsp"]
 	path = plugin-rtsp
 	url = git@github.com:Monibuca/plugin-rtsp
-[submodule "plugin-ts"]
-	path = plugin-ts
-	url = git@github.com:Monibuca/plugin-ts
 [submodule "plugin-webrtc"]
 	path = plugin-webrtc
 	url = git@github.com:Monibuca/plugin-webrtc
@@ -43,6 +40,6 @@
 [submodule "monibuca"]
 	path = monibuca
 	url = git@github.com:langhuihui/monibuca
-[submodule "gb28181"]
-	path = gb28181
+[submodule "plugin-gb28181"]
+	path = plugin-gb28181
 	url = git@github.com:Monibuca/plugin-gb28181
