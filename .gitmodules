@@ -43,3 +43,6 @@
 [submodule "plugin-gb28181"]
 	path = plugin-gb28181
 	url = git@github.com:Monibuca/plugin-gb28181
+[submodule "plugin-preview"]
+	path = plugin-preview
+	url = git@github.com:Monibuca/plugin-preview
