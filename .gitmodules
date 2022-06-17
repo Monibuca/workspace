@@ -46,3 +46,6 @@
 [submodule "plugin-preview"]
 	path = plugin-preview
 	url = git@github.com:Monibuca/plugin-preview
+[submodule "plugin-snap"]
+	path = plugin-snap
+	url = git@github.com:Monibuca/plugin-snap

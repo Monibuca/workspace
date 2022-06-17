@@ -17,4 +17,5 @@ use (
 	./plugin-hook
 	./plugin-gb28181
 	./plugin-preview
+  ./plugin-snap
 )
