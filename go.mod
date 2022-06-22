@@ -53,7 +53,7 @@ require (
 	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.21.0 // indirect
 	golang.org/x/crypto v0.0.0-20220131195533-30dcbda58838 // indirect
-	golang.org/x/mod v0.4.2 // indirect
+	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
 	golang.org/x/net v0.0.0-20220531201128-c960675eff93 // indirect
 	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f // indirect
 	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
@@ -68,6 +68,7 @@ require (
 	m7s.live/plugin/jessica/v4 v4.0.0-20220619154153-bcd0a5960ac1 // indirect
 	m7s.live/plugin/rtmp/v4 v4.0.0-20220619154232-ab31af1fb7d6 // indirect
 	m7s.live/plugin/rtsp/v4 v4.0.0-20220619154428-2c1d908d7e68 // indirect
+	m7s.live/plugin/snap/v4 v4.0.0-20220619154320-97a4991e775b // indirect
 	m7s.live/plugin/webrtc/v4 v4.0.0-20220619154404-6a5d740a21de // indirect
 	m7s.live/plugin/webtransport/v4 v4.0.0-20220619154419-bf138bc5958b // indirect
 )
