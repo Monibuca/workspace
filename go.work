@@ -4,18 +4,18 @@ use (
 	./engine
 	./monibuca
 	./plugin-debug
+	./plugin-gb28181
 	./plugin-hdl
 	./plugin-hls
+	./plugin-hook
 	./plugin-jessica
 	./plugin-logrotate
+	./plugin-preview
 	./plugin-record
+	./plugin-room
 	./plugin-rtmp
 	./plugin-rtsp
+	./plugin-snap
 	./plugin-webrtc
 	./plugin-webtransport
-	./plugin-room
-	./plugin-hook
-	./plugin-gb28181
-	./plugin-preview
-  ./plugin-snap
 )
