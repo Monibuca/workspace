@@ -49,3 +49,9 @@
 [submodule "plugin-snap"]
 	path = plugin-snap
 	url = git@github.com:Monibuca/plugin-snap
+[submodule "plugin-edge"]
+	path = plugin-edge
+	url = git@github.com:Monibuca/plugin-edge
+[submodule "plugin-db"]
+	path = plugin-db
+	url = git@github.com:Monibuca/plugin-db

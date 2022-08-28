@@ -18,4 +18,6 @@ use (
 	./plugin-snap
 	./plugin-webrtc
 	./plugin-webtransport
+  	./plugin-edge
+    ./plugin-db
 )
