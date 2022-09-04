@@ -52,6 +52,6 @@
 [submodule "plugin-edge"]
 	path = plugin-edge
 	url = git@github.com:Monibuca/plugin-edge
-[submodule "plugin-db"]
-	path = plugin-db
-	url = git@github.com:Monibuca/plugin-db
+[submodule "plugin-influxdb"]
+	path = plugin-influxdb
+	url = git@github.com:Monibuca/plugin-influxdb
