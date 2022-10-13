@@ -19,7 +19,6 @@ github.com/shirou/gopsutil v2.19.11+incompatible/go.mod h1:5b4v6he4MtMOwMlS0TUMT
 github.com/shirou/w32 v0.0.0-20160930032740-bb4de0191aa4/go.mod h1:qsXQc7+bwAM3Q1u/4XEfrquwF8Lw7D7y5cD8CuHnfIc=
 github.com/sirupsen/logrus v1.8.1/go.mod h1:yWOB1SBYBC5VeMP7gHvWumXLIWorT60ONWic61uBYv0=
 github.com/yuin/goldmark v1.4.1/go.mod h1:mwnBkeHKe2W/ZEtQ+71ViKU8L12m81fl3OWwC1Zlc8k=
-golang.org/x/crypto v0.0.0-20210921155107-089bfa567519/go.mod h1:GvvjBRRGRdwPK5ydBHafDWAxML/pGHZbMvKqRZ5+Abc=
 golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
 golang.org/x/net v0.0.0-20211015210444-4f30a5c0130f/go.mod h1:9nx3DQGgdP8bBQD5qxJ1jj9UTztislL4KSBs9R2vV5Y=
 golang.org/x/net v0.0.0-20220225172249-27dd8689420f/go.mod h1:CfG3xpIq0wQ8r1q4Su4UZFWDARRcnwPjda9FqA0JpMk=
@@ -47,3 +46,4 @@ m7s.live/plugin/rtsp/v4 v4.0.0-20220424015537-7d0451c204ea/go.mod h1:larXRUF0Db/
 m7s.live/plugin/ts/v4 v4.0.0-20220227134506-bb45532e1856/go.mod h1:/jLfAz4/YVqflUpBvEm76TBQE+R0OwQV+XzVW4mbxrI=
 m7s.live/plugin/webrtc/v4 v4.0.0-20220512011147-77109592816a/go.mod h1:F78F1+ILZZbKYoHXr42YBXkHoi9D4W7jvjSazN38000=
 m7s.live/plugin/webtransport/v4 v4.0.0-20220408080348-a2f8f82dcd1f/go.mod h1:Z/bTYtY70Y9tFrBU2YiFS1XK5O12ACCCKPEQTvE7/jk=
+m7s.live/plugin/webtransport/v4 v4.0.1/go.mod h1:RtqizBkC2q3QNA+gfYD1mMH6SVK8T/iprvaX+3SQ1B0=
