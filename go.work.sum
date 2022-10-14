@@ -41,9 +41,9 @@ m7s.live/plugin/jessica/v4 v4.0.0-20220322012259-b02270273ead/go.mod h1:mJCONeOU
 m7s.live/plugin/logrotate/v4 v4.0.0-20220317090133-53baaa5b5538/go.mod h1:a8hIV59GjpQDE+Ip790CU7yOHaG4+Iweci0sLvo43FU=
 m7s.live/plugin/preview/v4 v4.0.0-20220626084504-3a50bb4ce5f3/go.mod h1:iYhWqFbTvTNDFplbTOrE5X9M6ED7gCKkKMuM5QmBocg=
 m7s.live/plugin/record/v4 v4.0.0-20220528120453-4988ab00affc/go.mod h1:a2/CY+ddgmxzUMDpVTfAsTHrtWNDo/JOmzi6Xf05bQM=
+m7s.live/plugin/record/v4 v4.0.4/go.mod h1:pOe8VNiXm/m1SiJSO16iFZhqrWJeb1xcV3s9qv5v6eo=
 m7s.live/plugin/rtmp/v4 v4.0.0-20220405063605-64880867378c/go.mod h1:im3XlkN0XxMCWI8XQZHxER63/EPIfM9XoeLZtgFqYD8=
 m7s.live/plugin/rtsp/v4 v4.0.0-20220424015537-7d0451c204ea/go.mod h1:larXRUF0Db/RNTIIfFp/Q68GX8KyN/6jE2Z/cfZOFpA=
 m7s.live/plugin/ts/v4 v4.0.0-20220227134506-bb45532e1856/go.mod h1:/jLfAz4/YVqflUpBvEm76TBQE+R0OwQV+XzVW4mbxrI=
 m7s.live/plugin/webrtc/v4 v4.0.0-20220512011147-77109592816a/go.mod h1:F78F1+ILZZbKYoHXr42YBXkHoi9D4W7jvjSazN38000=
 m7s.live/plugin/webtransport/v4 v4.0.0-20220408080348-a2f8f82dcd1f/go.mod h1:Z/bTYtY70Y9tFrBU2YiFS1XK5O12ACCCKPEQTvE7/jk=
-m7s.live/plugin/webtransport/v4 v4.0.1/go.mod h1:RtqizBkC2q3QNA+gfYD1mMH6SVK8T/iprvaX+3SQ1B0=
