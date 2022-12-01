@@ -55,3 +55,6 @@
 [submodule "plugin-influxdb"]
 	path = plugin-influxdb
 	url = git@github.com:Monibuca/plugin-influxdb
+[submodule "plugin-fmp4"]
+	path = plugin-fmp4
+	url = git@github.com:Monibuca/plugin-fmp4
