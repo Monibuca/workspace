@@ -19,5 +19,6 @@ use (
 	./plugin-webrtc
 	./plugin-webtransport
   	./plugin-edge
+    ./plugin-fmp4
     ./plugin-influxdb
 )
