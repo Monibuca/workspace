@@ -18,7 +18,8 @@ use (
 	./plugin-snap
 	./plugin-webrtc
 	./plugin-webtransport
-  	./plugin-edge
-    ./plugin-fmp4
-    ./plugin-influxdb
+  ./plugin-edge
+  ./plugin-fmp4
+  ./plugin-exporter
+  ./plugin-influxdb
 )
