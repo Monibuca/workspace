@@ -27,7 +27,6 @@ github.com/yuin/goldmark v1.4.1/go.mod h1:mwnBkeHKe2W/ZEtQ+71ViKU8L12m81fl3OWwC1
 golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
 golang.org/x/mod v0.6.0/go.mod h1:4mET923SAdbXp2ki8ey+zGs1SLqsuM2Y0uvdZR/fUNI=
 golang.org/x/net v0.0.0-20211015210444-4f30a5c0130f/go.mod h1:9nx3DQGgdP8bBQD5qxJ1jj9UTztislL4KSBs9R2vV5Y=
-golang.org/x/net v0.0.0-20220225172249-27dd8689420f/go.mod h1:CfG3xpIq0wQ8r1q4Su4UZFWDARRcnwPjda9FqA0JpMk=
 golang.org/x/net v0.0.0-20220526153639-5463443f8c37/go.mod h1:XRhObCWvk6IyKnWLug+ECip1KBveYUHfp+8e9klMJ9c=
 golang.org/x/net v0.0.0-20220607020251-c690dde0001d/go.mod h1:XRhObCWvk6IyKnWLug+ECip1KBveYUHfp+8e9klMJ9c=
 golang.org/x/net v0.0.0-20220624214902-1bab6f366d9e/go.mod h1:XRhObCWvk6IyKnWLug+ECip1KBveYUHfp+8e9klMJ9c=
@@ -52,7 +51,7 @@ m7s.live/engine/v4 v4.7.1/go.mod h1:uzpGiVnIcuoXehpvqOj9iTVxnyf7RZQZ/Ikiwyjs01E=
 m7s.live/engine/v4 v4.7.8/go.mod h1:Knz1H4ZhJDooORkHOuHGNquSyA4txJFgVCng5rTEAm8=
 m7s.live/engine/v4 v4.8.9/go.mod h1:OgI9lOQ1bE64s9rApdGGop1MBAJIpc/V2MJ190d9ig4=
 m7s.live/engine/v4 v4.9.1/go.mod h1:OgI9lOQ1bE64s9rApdGGop1MBAJIpc/V2MJ190d9ig4=
-m7s.live/engine/v4 v4.9.7/go.mod h1:znB5Ux7fJ/bIVKnbHrwoInztVn7z/4CrXwjc24b1exI=
+m7s.live/engine/v4 v4.10.1/go.mod h1:znB5Ux7fJ/bIVKnbHrwoInztVn7z/4CrXwjc24b1exI=
 m7s.live/plugin/debug/v4 v4.0.0-20220424024711-7fd506ac8902/go.mod h1:A/C1ViacCOK7EPeeCfiwlUrC2TUtRdEqzrR0Yd9b1KQ=
 m7s.live/plugin/gb28181/v4 v4.0.0-20220704023857-64861c37b1e6/go.mod h1:gaIODijPQOyMvFE1X/46N8Yh0i0RLozyom6RtxTG3g0=
 m7s.live/plugin/gb28181/v4 v4.0.2/go.mod h1:Tn34m/YLi7hLteNBbeRmFkwxy4Y/mmd9okdKMvdbmkY=

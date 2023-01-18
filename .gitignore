@@ -7,3 +7,5 @@ m7s-import
 .DS_Store
 .psd
 upload.sh
+.history
+.sh

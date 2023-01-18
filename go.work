@@ -21,5 +21,4 @@ use (
   ./plugin-edge
   ./plugin-fmp4
   ./plugin-exporter
-  ./plugin-influxdb
 )

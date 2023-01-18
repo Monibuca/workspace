@@ -52,9 +52,9 @@
 [submodule "plugin-edge"]
 	path = plugin-edge
 	url = git@github.com:Monibuca/plugin-edge
-[submodule "plugin-influxdb"]
-	path = plugin-influxdb
-	url = git@github.com:Monibuca/plugin-influxdb
+[submodule "plugin-exporter"]
+	path = plugin-exporter
+	url = git@github.com:Monibuca/plugin-exporter
 [submodule "plugin-fmp4"]
 	path = plugin-fmp4
 	url = git@github.com:Monibuca/plugin-fmp4
