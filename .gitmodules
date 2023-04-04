@@ -58,3 +58,6 @@
 [submodule "plugin-fmp4"]
 	path = plugin-fmp4
 	url = git@github.com:Monibuca/plugin-fmp4
+[submodule "plugin-monitor"]
+	path = plugin-monitor
+	url = git@github.com:Monibuca/plugin-monitor
