@@ -1,4 +1,4 @@
-go 1.18
+go 1.19
 
 use (
 	./engine
@@ -21,4 +21,5 @@ use (
   ./plugin-edge
   ./plugin-fmp4
   ./plugin-exporter
+  ./plugin-monitor
 )
