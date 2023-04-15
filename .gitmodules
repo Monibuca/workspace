@@ -1,63 +1,82 @@
 [submodule "engine"]
 	path = engine
 	url = git@github.com:Monibuca/engine
+	branch = v4
 [submodule "plugin-debug"]
 	path = plugin-debug
 	url = git@github.com:Monibuca/plugin-debug
+	branch = v4
 [submodule "plugin-hdl"]
 	path = plugin-hdl
 	url = git@github.com:Monibuca/plugin-hdl
+	branch = v4
 [submodule "plugin-hls"]
 	path = plugin-hls
 	url = git@github.com:Monibuca/plugin-hls
+	branch = v4
 [submodule "plugin-jessica"]
 	path = plugin-jessica
 	url = git@github.com:Monibuca/plugin-jessica
+	branch = v4
 [submodule "plugin-logrotate"]
 	path = plugin-logrotate
 	url = git@github.com:Monibuca/plugin-logrotate
+	branch = v4
 [submodule "plugin-rtmp"]
 	path = plugin-rtmp
 	url = git@github.com:Monibuca/plugin-rtmp
+	branch = v4
 [submodule "plugin-rtsp"]
 	path = plugin-rtsp
 	url = git@github.com:Monibuca/plugin-rtsp
+	branch = v4
 [submodule "plugin-webrtc"]
 	path = plugin-webrtc
 	url = git@github.com:Monibuca/plugin-webrtc
 [submodule "plugin-webtransport"]
 	path = plugin-webtransport
 	url = git@github.com:Monibuca/plugin-webtransport
+	branch = v4
 [submodule "plugin-record"]
 	path = plugin-record
 	url = git@github.com:Monibuca/plugin-record
+	branch = v4
 [submodule "plugin-hook"]
 	path = plugin-hook
 	url = git@github.com:Monibuca/plugin-hook
+	branch = v4
 [submodule "plugin-room"]
 	path = plugin-room
 	url = git@github.com:Monibuca/plugin-room
 [submodule "monibuca"]
 	path = monibuca
 	url = git@github.com:langhuihui/monibuca
+	branch = v4
 [submodule "plugin-gb28181"]
 	path = plugin-gb28181
 	url = git@github.com:Monibuca/plugin-gb28181
+	branch = v4
 [submodule "plugin-preview"]
 	path = plugin-preview
 	url = git@github.com:Monibuca/plugin-preview
+	branch = v4
 [submodule "plugin-snap"]
 	path = plugin-snap
 	url = git@github.com:Monibuca/plugin-snap
+	branch = v4
 [submodule "plugin-edge"]
 	path = plugin-edge
 	url = git@github.com:Monibuca/plugin-edge
+	branch = v4
 [submodule "plugin-exporter"]
 	path = plugin-exporter
 	url = git@github.com:Monibuca/plugin-exporter
+	branch = v4
 [submodule "plugin-fmp4"]
 	path = plugin-fmp4
 	url = git@github.com:Monibuca/plugin-fmp4
+	branch = v4
 [submodule "plugin-monitor"]
 	path = plugin-monitor
 	url = git@github.com:Monibuca/plugin-monitor
+	branch = v4
