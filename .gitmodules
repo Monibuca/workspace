@@ -80,3 +80,7 @@
 	path = plugin-monitor
 	url = git@github.com:Monibuca/plugin-monitor
 	branch = v4
+[submodule "plugin-ps"]
+	path = plugin-ps
+	url = git@github.com:Monibuca/plugin-ps
+	branch = v4

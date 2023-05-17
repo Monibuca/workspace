@@ -22,4 +22,5 @@ use (
   ./plugin-fmp4
   ./plugin-exporter
   ./plugin-monitor
+  ./plugin-ps
 )
