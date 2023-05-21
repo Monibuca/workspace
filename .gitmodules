@@ -33,6 +33,7 @@
 [submodule "plugin-webrtc"]
 	path = plugin-webrtc
 	url = git@github.com:Monibuca/plugin-webrtc
+  branch = v4
 [submodule "plugin-webtransport"]
 	path = plugin-webtransport
 	url = git@github.com:Monibuca/plugin-webtransport
