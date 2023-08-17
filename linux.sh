@@ -1,3 +1,3 @@
 cd monibuca
 export GOOS=linux
-go1.19 build -o monibuca_linux
+go1.20 build -o monibuca_linux
