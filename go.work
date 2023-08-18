@@ -1,16 +1,23 @@
-go 1.19
+go 1.20
+
+toolchain go1.21.0
 
 use (
 	./engine
 	./monibuca
 	./plugin-debug
+	./plugin-edge
+	./plugin-exporter
+	./plugin-fmp4
 	./plugin-gb28181
 	./plugin-hdl
 	./plugin-hls
 	./plugin-hook
 	./plugin-jessica
 	./plugin-logrotate
+	./plugin-monitor
 	./plugin-preview
+	./plugin-ps
 	./plugin-record
 	./plugin-room
 	./plugin-rtmp
@@ -18,9 +25,4 @@ use (
 	./plugin-snap
 	./plugin-webrtc
 	./plugin-webtransport
-  ./plugin-edge
-  ./plugin-fmp4
-  ./plugin-exporter
-  ./plugin-monitor
-  ./plugin-ps
 )
