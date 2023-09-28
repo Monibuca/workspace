@@ -107,6 +107,22 @@
       "options": {
         "cwd": "${workspaceRoot}/monibuca"
       },
+    },
+    {
+      "type": "shell",
+      "label": "upx linux",
+      "command": "upx -9 -o monibuca_linux_upx monibuca_linux",
+      "options": {
+        "cwd": "${workspaceRoot}/monibuca"
+      },
+    },
+    {
+      "type": "shell",
+      "label": "upx windows",
+      "command": "upx -9 -o monibuca_win64_upx.exe monibuca_win64.exe",
+      "options": {
+        "cwd": "${workspaceRoot}/monibuca"
+      },
     }
   ]
 }

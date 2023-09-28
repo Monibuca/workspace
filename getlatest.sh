@@ -1,4 +1,17 @@
 #!/bin/bash
+read -p "Enter the dir name: " dir
+
+case "${dir}" in
+  "engine")
+    cd engine
+    ;;
+  "monibuca")
+    cd monibuca
+    ;;
+  *)
+   cd plugin-${dir}
+    ;;
+esac
 
 # 获取最新的 commit hash 值
 commit_hash=$(git rev-parse HEAD)
