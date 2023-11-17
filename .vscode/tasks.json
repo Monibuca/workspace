@@ -92,6 +92,11 @@
     },
     {
       "type": "shell",
+      "label": "update engine",
+      "command": "sh getlatest.sh engine"
+    },
+    {
+      "type": "shell",
       "label": "pprof heap",
       "command": "go tool pprof -http=localhost:6060 http://localhost:8080/debug/pprof/heap"
     },
@@ -123,6 +128,51 @@
       "options": {
         "cwd": "${workspaceRoot}/monibuca"
       },
+    },
+    {
+      "type": "shell",
+      "label": "play rtsp",
+      "command": "ffplay6.1 rtsp://localhost/live/test", 
+    },
+    {
+      "type": "shell",
+      "label": "play rtmp",
+      "command": "ffplay6.1 rtmp://localhost/live/test", 
+    },
+    {
+      "type": "shell",
+      "label": "push",
+      "command": "ffmpeg -re -stream_loop -1 -i /Users/dexter/Movies/jb-demo.mp4 -c copy -f flv rtmp://localhost/live/test", 
+    },
+    {
+      "type": "shell",
+      "label": "push rtsp",
+      "command": "ffmpeg -re -stream_loop -1 -i /Users/dexter/Movies/jb-demo.mp4 -c:v h264 -c:a pcm_alaw -f rtsp  -rtsp_transport tcp  rtsp://localhost/live/test", 
+    },
+    {
+      "type": "shell",
+      "label": "push rtmp av1",
+      "command": "ffmpeg6.1 -re -stream_loop -1 -i /Users/dexter/Movies/demo2.mp4 -c:v av1 -c:a aac -f flv  rtmp://localhost/live/test", 
+    },
+    {
+      "type": "shell",
+      "label": "push rtmp",
+      "command": "ffmpeg -re -stream_loop -1 -i /Users/dexter/Movies/jb-demo.mp4 -c:v h264 -c:a pcm_alaw -f flv rtmp://localhost/live/test", 
+    },
+    {
+      "type": "shell",
+      "label": "push rtmp 265",
+      "command": "ffmpeg6.1 -re -stream_loop -1 -i /Users/dexter/Movies/jb-demo.mp4 -c:v hevc -c:a aac -f flv rtmp://localhost/live/test", 
+    },
+    {
+      "type": "shell",
+      "label": "push rtsp 8554",
+      "command": "ffmpeg -re -stream_loop -1 -i /Users/dexter/Movies/jb-demo.mp4 -c copy -f rtsp  -rtsp_transport tcp  rtsp://localhost:8554/live/test", 
+    },
+    {
+      "type": "shell",
+      "label": "push 2",
+      "command": "ffmpeg -re -stream_loop -1 -i /Users/dexter/Movies/demo2.mp4 -c copy -f flv rtmp://localhost/live/test2", 
     }
   ]
 }

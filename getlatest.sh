@@ -1,7 +1,6 @@
 #!/bin/bash
-read -p "Enter the dir name: " dir
 
-case "${dir}" in
+case "$1" in
   "engine")
     cd engine
     ;;
@@ -9,10 +8,10 @@ case "${dir}" in
     cd monibuca
     ;;
   *)
-   cd plugin-${dir}
+   cd plugin-$1
     ;;
 esac
-
+git push -f
 # 获取最新的 commit hash 值
 commit_hash=$(git rev-parse HEAD)
 

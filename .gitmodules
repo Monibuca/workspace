@@ -65,9 +65,9 @@
 	path = plugin-snap
 	url = git@github.com:Monibuca/plugin-snap
 	branch = v4
-[submodule "plugin-edge"]
-	path = plugin-edge
-	url = git@github.com:Monibuca/plugin-edge
+[submodule "plugin-rtsp2"]
+	path = plugin-rtsp2
+	url = git@github.com:Monibuca/plugin-rtsp2
 	branch = v4
 [submodule "plugin-exporter"]
 	path = plugin-exporter

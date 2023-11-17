@@ -1,6 +1,4 @@
-read -p "Enter the dir name: " dir
-
-case "${dir}" in
+case "${1}" in
   "engine")
     cd engine
     ;;
@@ -8,7 +6,7 @@ case "${dir}" in
     cd monibuca
     ;;
   *)
-   cd plugin-${dir}
+   cd plugin-${1}
     ;;
 esac
 
@@ -18,3 +16,8 @@ read -p "Enter the tag name: " tag
 git tag v${tag}
 git push origin v${tag}
 git push
+# 获取 go 模块名
+go_module_name=$(grep -E "^module\s+" go.mod | awk '{print $2}')
+# 切换到 ../monibuca 目录并执行 go get
+cd ../monibuca || exit
+go get ${go_module_name}@v${tag}

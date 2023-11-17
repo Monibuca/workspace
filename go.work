@@ -1,13 +1,9 @@
 go 1.20
 
-toolchain go1.21.0
-
 use (
 	./engine
 	./monibuca
 	./plugin-debug
-	./plugin-edge
-	./plugin-exporter
 	./plugin-fmp4
 	./plugin-gb28181
 	./plugin-hdl
@@ -22,6 +18,7 @@ use (
 	./plugin-room
 	./plugin-rtmp
 	./plugin-rtsp
+	./plugin-rtsp2
 	./plugin-snap
 	./plugin-webrtc
 	./plugin-webtransport
