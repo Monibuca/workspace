@@ -1,3 +1,4 @@
+#!/bin/bash
 case "${1}" in
   "engine")
     cd engine
@@ -12,12 +13,12 @@ esac
 
 latest=$(git describe --tags `git rev-list --tags --max-count=1`)
 echo $latest
-read -p "Enter the tag name: " tag
-git tag v${tag}
-git push origin v${tag}
+read -p "Enter the tag name: v4." tag
+git tag v4.${tag}
+git push origin v4.${tag}
 git push
 # 获取 go 模块名
 go_module_name=$(grep -E "^module\s+" go.mod | awk '{print $2}')
 # 切换到 ../monibuca 目录并执行 go get
 cd ../monibuca || exit
-go get ${go_module_name}@v${tag}
+go get ${go_module_name}@v4.${tag}
