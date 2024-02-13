@@ -92,6 +92,14 @@
     },
     {
       "type": "shell",
+      "label": "build docker",
+      "command": "docker buildx build --rm -f Dockerfile --platform=linux/amd64 -t langhuihui/monibuca:latest .",
+      "options": {
+        "cwd": "${workspaceRoot}/monibuca"
+      },
+    },
+    {
+      "type": "shell",
       "label": "update engine",
       "command": "sh getlatest.sh engine"
     },

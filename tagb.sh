@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd monibuca
 # 从最新的 tag 获取版本号
 latest_tag=$(git describe --tags --abbrev=0)
 version=${latest_tag%-beta*}

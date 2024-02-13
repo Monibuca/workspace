@@ -26,10 +26,6 @@
         "-c",
         "config2.yaml"
       ],
-      "env": {
-        "RECORD_FLV_FRAGMENT":"10s",
-        "GLOBAL_LOGLEVEL":"debug"
-      },
       "cwd": "${workspaceRoot}/monibuca"
     }
   ],
