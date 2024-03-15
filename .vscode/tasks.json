@@ -155,7 +155,7 @@
     {
       "type": "shell",
       "label": "push rtsp",
-      "command": "ffmpeg -re -stream_loop -1 -i /Users/dexter/Movies/jb-demo.mp4 -c:v h264 -c:a pcm_alaw -f rtsp  -rtsp_transport tcp  rtsp://localhost/live/test", 
+      "command": "ffmpeg -re -stream_loop -1 -i /Users/dexter/Movies/jb-demo.mp4 -c:v h264 -c:a pcm_alaw -an -f rtsp  -rtsp_transport tcp  rtsp://localhost/live/test", 
     },
     {
       "type": "shell",
